@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de Pessoas</h1>
+    Sastifação:<input type="range" name="satisfação">
+    <form action="ReceberDados.php" method="post">
+        Nome: <input type="text" name="nome" size="50"> <br><br>
+        Hora: <input type="time" name="hora"><br><br>
+        Data de nascimento: <input type="date" name="data"><br><br>
+        senha: <input type="password" name="senha"><br><br>
+        email: <input type="email" name="email"><br><br>
+        cor: <input type="color" name="cor"><br><br>
+        <input type="file" name="arquivo"><br><br>
+        <input type="image" src="amarelinha.jpg"><br><br>
+        Cursos: <br>
+       
+        TI<input type="radio" name="Curso" value="TI"><br>
+        MC<input type="radio" name="Curso" value="MC"><br>
+        TL<input type="radio" name="Curso" value="TL"><br>
+
+        Disciplinas: <br>
+
+        <input type="checkbox" name="LV1"> LV1<br>
+        <input type="checkbox" name="Redes">Redes<br>
+        <input type="checkbox" name="MPE"> MPE<br>
+        <input type="checkbox" name="POO"> POO<br>
+     
+        Estado: <br>
+        <select name="estado">
+            <option value="DF">DF</option>
+            <option value="MA">MA</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+        </select>
+        <br>
+        Observação: <br>
+        <textarea name="OBS" cols="20" rows="10"></textarea><br>
+        <input type="submit" value="Cadastrar">
+
+
+
+
+
+       
+    </form>
+</body>
+</html>
